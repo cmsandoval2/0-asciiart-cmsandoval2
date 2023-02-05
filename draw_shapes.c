@@ -38,7 +38,7 @@ void print_triangle(int leftCol, int size)
     for (col = 0; col < leftCol; col++) putchar(' ');
     for (       ; col < endCol;  col++) putchar('*');
     putchar('\n');
-      }
+    }
   }
 }
 
